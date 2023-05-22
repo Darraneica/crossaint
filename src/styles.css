@@ -2,7 +2,15 @@ body {
   max-width: 100%;
   background: wheat;
 }
-img {
+#pic1 {
+  background: no-repeat;
+  background-size: contain;
+  max-width: 140px;
+  position: relative;
+  left: 250px;
+}
+
+#pic2 {
   background: no-repeat;
   background-size: contain;
   max-width: 140px;
@@ -12,4 +20,12 @@ img {
 
 h1 {
   text-align: center;
+}
+
+footer {
+  font-size: 1 s0px;
+}
+
+small {
+  font-size: 20px;
 }
