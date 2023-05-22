@@ -1,0 +1,15 @@
+body {
+  max-width: 100%;
+  background: wheat;
+}
+img {
+  background: no-repeat;
+  background-size: contain;
+  max-width: 140px;
+  position: relative;
+  left: 250px;
+}
+
+h1 {
+  text-align: center;
+}
