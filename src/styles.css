@@ -6,6 +6,7 @@ body {
   background: no-repeat;
   background-size: contain;
   max-width: 140px;
+  text-align: center;
   position: relative;
   left: 250px;
 }
@@ -45,4 +46,12 @@ footer a {
   border-radius: 10px;
   display: block;
   margin: 30px auto;
+}
+
+@media (max-width: 576px) {
+  #pic1 {
+    text-align: center;
+    position: relative;
+    left: 90px;
+  }
 }
