@@ -18,7 +18,8 @@ body {
   left: 250px;
 }
 
-h1 {
+h1,
+p {
   text-align: center;
 }
 
@@ -28,4 +29,20 @@ footer {
 
 small {
   font-size: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  margin: 0;
+  color: green;
+}
+
+.croissant-photo {
+  max-width: 50%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
 }
